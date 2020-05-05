@@ -15,7 +15,7 @@ source:
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -35,6 +35,7 @@ requirements:
     - r-magrittr
     - r-purrr
     - r-shiny
+    - r-scales
   run:
     - r-base
     - r-crosstalk
@@ -46,6 +47,7 @@ requirements:
     - r-magrittr
     - r-purrr
     - r-shiny
+    - r-scales
 
 test:
   commands:
@@ -58,6 +60,7 @@ about:
   summary: Interface to 'sigma.js' graph visualization library including animations, plugins
     and shiny proxies.
   license_family: MIT
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
