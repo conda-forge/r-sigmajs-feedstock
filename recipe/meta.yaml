@@ -35,6 +35,7 @@ requirements:
     - r-magrittr
     - r-purrr
     - r-shiny
+    - r-scales
   run:
     - r-base
     - r-crosstalk
@@ -46,6 +47,7 @@ requirements:
     - r-magrittr
     - r-purrr
     - r-shiny
+    - r-scales
 
 test:
   commands:
