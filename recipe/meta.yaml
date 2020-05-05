@@ -58,6 +58,7 @@ about:
   summary: Interface to 'sigma.js' graph visualization library including animations, plugins
     and shiny proxies.
   license_family: MIT
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
