@@ -1,4 +1,4 @@
-{% set version = "0.1.3" %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,13 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sigmajs_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sigmajs/sigmajs_{{ version }}.tar.gz
-  sha256: 5be540d7d0454af1de059c16195893814d05db5d732a10744496c0ea7bbbec04
+  sha256: 6587ca1579996371dc522f2962c91877aa8f10877e3d9ed13ac848fb2ea546b4
 
 build:
-  noarch: generic
   merge_build_host: True  # [win]
-  number: 2
   noarch: generic
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
