@@ -9,6 +9,8 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sigmajs-feeds
 
 Summary: Interface to 'sigma.js' graph visualization library including animations, plugins and shiny proxies.
 
+Development: https://github.com/JohnCoene/sigmajs
+
 Current build status
 ====================
 
