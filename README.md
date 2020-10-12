@@ -5,11 +5,11 @@ Home: http://sigmajs.john-coene.com/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sigmajs-feedstock/blob/master/LICENSE.txt)
 
 Summary: Interface to 'sigma.js' graph visualization library including animations, plugins and shiny proxies.
 
-
+Development: https://github.com/JohnCoene/sigmajs
 
 Current build status
 ====================
