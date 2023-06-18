@@ -1,11 +1,11 @@
-About r-sigmajs
-===============
+About r-sigmajs-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sigmajs-feedstock/blob/main/LICENSE.txt)
 
 Home: http://sigmajs.john-coene.com/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sigmajs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'sigma.js' graph visualization library including animations, plugins and shiny proxies.
 
