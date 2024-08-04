@@ -1,6 +1,5 @@
 {% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-sigmajs
@@ -13,9 +12,8 @@ source:
   sha256: 6587ca1579996371dc522f2962c91877aa8f10877e3d9ed13ac848fb2ea546b4
 
 build:
-  merge_build_host: True  # [win]
   noarch: generic
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
